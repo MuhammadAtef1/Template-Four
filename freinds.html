@@ -4,15 +4,409 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Freinds</title>
+  <title>Friends</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
 </head>
 <body>
-    <h1>Freinds</h1>
+  <div class="project">
+    <!-- start of naaaaaav -->
+    <nav>
+      <div class="nav-title flex">
+        <p>Elzero</p>
+        <div class="border-circle"></div>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html" class="flex">
+            <div>
+              <i class="fa-regular fa-chart-bar " style="color: black;"></i>
+            </div>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-gear " style="color: black;"></i>
+            </div>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-user " style="color: black;"></i>
+            </div>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-diagram-project " style="color: black;"></i>
+            </div>
+            <p>Projects</p>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-graduation-cap " style="color: black;"></i>
+            </div>
+            <p>Courses</p>
+          </a>
+        </li>
+        <li class="active">
+          <a href="freinds.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-circle-user " style="color: black;"></i>
+            </div>
+            <p>Freinds</p>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-file" style="color: black;"></i>
+            </div>
+            <p>Files</p>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-credit-card " style="color: black;"></i>
+            </div>
+            <p>Plans</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="container">
+      <header class="flex">
+        <label for="search" class="flex">
+          <i class="fa-solid fa-magnifying-glass" style="color: rgba(0, 0, 0, 0.658);"></i>
+          <input type="search" id="search" placeholder="Type A Keyword">
+        </label>
+        <div class="header-data flex">
+          <div>
+            <i class="fa-regular fa-bell fa-lg" style="color: black;">
+              <div></div>
+            </i> 
+          </div>
+          <img src="./imgs/avatar.png" alt="">
+        </div>
+      </header>
+
+
+      <div class="dashboard-content">
+        <div class="title flex">
+          <p>Friends</p>
+          <div></div>
+        </div>
+        <div class="content-icons">
+          <div class="friends-icon-collection course-icon-collection">
+            <div class="friends-icon flex border-radius">
+              <h1>Vip</h1>
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-01.jpg" alt="">
+              <h3>Ahmed Nasser</h3>
+              <p class="lite">JavaScript Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>99 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>15 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>25 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/10/2021</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-02.jpg" alt="">
+              <h3>Omar Fathy</h3>
+              <p class="lite">Cloud Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>30 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>11 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>12 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/08/2020</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-03.jpg" alt="">
+              <h3>Omar Ahmed</h3>
+              <p class="lite">Mobile Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>80 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>20 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>18 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/06/2020</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-04.jpg" alt="">
+              <h3>Shady Nabil</h3>
+              <p class="lite">Back-End Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>70 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>30 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>18 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 28/06/2020</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-05.jpg" alt="">
+              <h3>Mohamed Ibrahim</h3>
+              <p class="lite">Algorithm Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>80 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>30 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>25 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/10/2021</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-01.jpg" alt="">
+              <h3>Amr Hendawy</h3>
+              <p class="lite">Back-End Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>99 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>15 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>25 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/10/2021</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-02.jpg" alt="">
+              <h3>Mahmoud Adel</h3>
+              <p class="lite">Cloud Developer</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>30 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>11 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>12 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/08/2020</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <h1>Vip</h1>
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-03.jpg" alt="">
+              <h3>Ahmed Abuzaid</h3>
+              <p class="lite">Content Creator</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>99 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>15 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>25 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/10/2021</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <h1>Vip</h1>
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-04.jpg" alt="">
+              <h3>Gareeb Elshiekh</h3>
+              <p class="lite">JavaScript Developerr</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>99 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>15 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>25 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/10/2021</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends-icon flex border-radius">
+              <i class="fa-solid fa-phone" ></i>
+              <i class="fa-regular fa-envelope" ></i>
+              <img src="./imgs/friend-05.jpg" alt="">
+              <h3>Hamza</h3>
+              <p class="lite">Front-End Developerr</p>
+              <div class="friends-icon-data flex">
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-regular fa-face-smile" ></i>
+                  <p>80 Friend</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-code-commit"></i>
+                  <p>20 Projects</p>
+                </div>
+                <div class="friend-icon-font-data flex">
+                  <i class="fa-solid fa-tty" ></i>
+                  <p>18 Articles</p>
+                </div>
+              </div>
+              <div class="friend-join-data flex">
+                <p class="lite">Joined 02/06/2020</p>
+                <div class="profile-remove flex">
+                  <p>Profile</p>
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+
+
 </body>
 </html>

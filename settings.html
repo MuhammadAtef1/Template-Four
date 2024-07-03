@@ -11,8 +11,342 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
 </head>
+
 <body>
-    <h1>Settings</h1>
+  <div class="project">
+    <!-- start of naaaaaav -->
+    <nav>
+      <div class="nav-title flex">
+        <p>Elzero</p>
+        <div class="border-circle"></div>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html" class="flex">
+            <div>
+              <i class="fa-regular fa-chart-bar " style="color: black;"></i>
+            </div>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li class="active">
+          <a href="settings.html" class="flex">
+            <div>
+              <i class="fa-solid fa-gear " style="color: black;"></i>
+            </div>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="flex">
+            <div>
+              <i class="fa-regular fa-user " style="color: black;"></i>
+            </div>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html" class="flex">
+            <div>
+              <i class="fa-solid fa-diagram-project " style="color: black;"></i>
+            </div>
+            <p>Projects</p>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html" class="flex">
+            <div>
+              <i class="fa-solid fa-graduation-cap " style="color: black;"></i>
+            </div>
+            <p>Courses</p>
+          </a>
+        </li>
+        <li>
+          <a href="freinds.html" class="flex">
+            <div>
+              <i class="fa-regular fa-circle-user " style="color: black;"></i>
+            </div>
+            <p>Freinds</p>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class="flex">
+            <div>
+              <i class="fa-regular fa-file" style="color: black;"></i>
+            </div>
+            <p>Files</p>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class="flex">
+            <div>
+              <i class="fa-regular fa-credit-card " style="color: black;"></i>
+            </div>
+            <p>Plans</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="container">
+      <header class="flex">
+        <label for="search" class="flex">
+          <i class="fa-solid fa-magnifying-glass" style="color: rgba(0, 0, 0, 0.658);"></i>
+          <input type="search" id="search" placeholder="Type A Keyword">
+        </label>
+        <div class="header-data flex">
+          <div>
+            <i class="fa-regular fa-bell fa-lg" style="color: black;">
+              <div></div>
+            </i>
+          </div>
+          <img src="./imgs/avatar.png" alt="">
+        </div>
+      </header>
+
+
+      <div class="dashboard-content">
+        <div class="title flex">
+          <p>Settings</p>
+          <div></div>
+        </div>
+        <div class="content-icons">
+
+
+
+          <div class="site-control border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>Site Control</h2>
+                <p class="lite">Control The Website If There Is Maintenance</p>
+              </div>
+            </div>
+            <div class="control-animation flex">
+              <div class="control-data flex">
+                <p>Website Control</p>
+                <p class="lite">Open/Close Website And Type The Reason</p>
+              </div>
+              <div class="animation-icon">
+                <input type="checkbox" id="bottom" checked>
+                <label for="bottom">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div>
+              <textarea name="textarea" id="textarea" placeholder="Close Message Content"></textarea>
+            </div>
+          </div>
+
+
+          <div class="general-info border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>General Info</h2>
+                <p class="lite">General Information About Your Account</p>
+              </div>
+            </div>
+            <div class="info-input flex">
+              <p>First Name</p>
+              <input type="text" id="first-name" placeholder="First Name">
+              <p>Last Name</p>
+              <input type="text" id="last-name" placeholder="Last Name">
+              <p>Email</p>
+              <div class="email-change flex">
+                <input type="email" disabled placeholder="o@nn.sa">
+                <a href="#">Change</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="security-info border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>Security Info</h2>
+                <p class="lite">Security Information About Your Account</p>
+              </div>
+            </div>
+            <div class="control-animation flex">
+              <div class="control-data flex">
+                <p>Password</p>
+                <p class="lite">Last Change On 25/10/2021</p>
+              </div>
+              <a href="#" class="change">Change</a>
+            </div>
+            <div class="control-animation flex">
+              <div class="control-data flex">
+                <p>Two-Factor Authentication</p>
+                <p class="lite">Enable/Disable The Feature</p>
+              </div>
+              <div class="animation-icon">
+                <input type="checkbox" id="button">
+                <label for="button">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="control-animation flex">
+              <div class="control-data flex">
+                <p>Password</p>
+                <p class="lite">Last Change On 25/10/2021</p>
+              </div>
+              <a href="#" class="device">Devices</a>
+            </div>
+          </div>
+
+
+
+
+          <div class="social-info border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>Social Info</h2>
+                <p class="lite">Social Media Information</p>
+              </div>
+            </div>
+            <div class="social-info-input-collection flex">
+              <div class="font-input-social flex">
+                <input type="text" placeholder="Twitter UserName">
+                <div class="social-font">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </div>
+              </div>
+              <div class="font-input-social flex">
+                <input type="text" placeholder="Facebook UserName">
+                <div class="social-font">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+              </div>
+              <div class="font-input-social flex">
+                <input type="text" placeholder="Linkedin UserName">
+                <div class="social-font">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+              <div class="font-input-social flex">
+                <input type="text" placeholder="Youtube UserName">
+                <div class="social-font">
+                  <i class="fa-brands fa-youtube "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="widgets-control border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>Widgets Control</h2>
+                <p class="lite">Show/Hide Widgets</p>
+              </div>
+            </div>
+            <div class="widgets-checkbox flex">
+              <label class="widget-check-icon flex" for="quick-draft">
+                <input type="checkbox" id="quick-draft" checked>
+                Quick Draft
+                <span class="checkmark"></span>
+              </label>
+              <label for="yearly" class="widget-check-icon flex">
+                <input type="checkbox" id="yearly" checked>
+                Yearly Targets
+                <span class="checkmark"></span>
+              </label>
+              <label for="Statistics" class="widget-check-icon flex">
+                <input type="checkbox" id="Statistics">
+                Tickets Statistics
+                <span class="checkmark"></span>
+              </label>
+              <label for="Latest" class="widget-check-icon flex">
+                <input type="checkbox" id="Latest" checked>
+                Latest News
+                <span class="checkmark"></span>
+              </label>
+              <label for="Tasks" class="widget-check-icon flex">
+                <input type="checkbox" id="Tasks">
+                Latest Tasks
+                <span class="checkmark"></span>
+              </label>
+              <label for="Items" class="widget-check-icon flex">
+                <input type="checkbox" id="Items" checked>
+                Top Search Items
+                <span class="checkmark"></span>
+              </label>
+              
+            </div>
+          </div>
+
+
+
+          <div class="backup-manager border-radius">
+            <div class="welcome flex">
+              <div class="welcome-data">
+                <h2>Backup Manager</h2>
+                <p class="lite">Control Backup Time And Location</p>
+              </div>
+            </div>
+            <div class="backup-collection">
+              <div class="backup-select flex">
+                <div class="backup-check-icon flex">
+                  <input type="radio" name="m"  id="d" checked>
+                  <span class="select-circle-mark"></span>
+                  <label for="d">Daily</label>
+                  
+                </div>
+                <div class="backup-check-icon flex">
+                  <input type="radio" name="m"  id="w">
+                  <span class="select-circle-mark"></span>
+                  <label for="w">Weekly</label>
+                </div>
+                <div class="backup-check-icon flex">
+                  <input type="radio" name="m" id="m">
+                  <span class="select-circle-mark"></span>
+                  <label for="m">Monthly</label>
+                </div>
+              </div>
+              <div class="backup-last-select flex">
+                <input type="radio" id="megaman" name="last-backup" >
+                <label for="megaman" class="flex">
+                  <i class="fa-solid fa-server fa-xl"></i>
+                  Megaman
+                </label>
+                <input type="radio" id="Zero" name="last-backup" checked>
+                <label for="Zero" class="flex">
+                  <i class="fa-solid fa-server fa-xl"></i>
+                  Zero
+                </label>
+                <input type="radio" id="Segma" name="last-backup">
+                <label for="Segma" class="flex">
+                  <i class="fa-solid fa-server fa-xl"></i>
+                  Segma
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
 </body>
+
 </html>

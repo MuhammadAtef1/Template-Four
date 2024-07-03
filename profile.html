@@ -11,8 +11,312 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
 </head>
 <body>
-    <h1>Profile</h1>
+  <div class="project">
+    <!-- start of naaaaaav -->
+    <nav>
+      <div class="nav-title flex">
+        <p>Elzero</p>
+        <div class="border-circle"></div>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html" class="flex">
+            <div>
+              <i class="fa-regular fa-chart-bar " style="color: black;"></i>
+            </div>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-gear " style="color: black;"></i>
+            </div>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li class="active">
+          <a href="profile.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-user " style="color: black;"></i>
+            </div>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-diagram-project " style="color: black;"></i>
+            </div>
+            <p>Projects</p>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html" class="flex" >
+            <div>
+              <i class="fa-solid fa-graduation-cap " style="color: black;"></i>
+            </div>
+            <p>Courses</p>
+          </a>
+        </li>
+        <li>
+          <a href="freinds.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-circle-user " style="color: black;"></i>
+            </div>
+            <p>Freinds</p>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-file" style="color: black;"></i>
+            </div>
+            <p>Files</p>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class="flex" >
+            <div>
+              <i class="fa-regular fa-credit-card " style="color: black;"></i>
+            </div>
+            <p>Plans</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="container">
+      <header class="flex">
+        <label for="search" class="flex">
+          <i class="fa-solid fa-magnifying-glass" style="color: rgba(0, 0, 0, 0.658);"></i>
+          <input type="search" id="search" placeholder="Type A Keyword">
+        </label>
+        <div class="header-data flex">
+          <div>
+            <i class="fa-regular fa-bell fa-lg" style="color: black;">
+              <div></div>
+            </i> 
+          </div>
+          <img src="./imgs/avatar.png" alt="">
+        </div>
+      </header>
+
+
+      <div class="dashboard-content">
+        <div class="title flex">
+          <p>Profile</p>
+          <div></div>
+        </div>
+
+        <div class="content-icons">
+
+          <div class="profile-osama border-radius">
+            <div class="prof-img-padding">
+              <div class="prof-img flex">
+                <img src="./imgs/avatar.png" alt="">
+                <h3>Osama Elzero</h3>
+                <p class="lite">Level 20</p>
+                <div class="border-level"></div>
+                <div class="stars flex">
+                  <i class="fa-solid fa-star" style="color:#f59e0b;"></i>
+                  <i class="fa-solid fa-star" style="color: #f59e0b;"></i>
+                  <i class="fa-solid fa-star " style="color: #f59e0b;"></i>
+                  <i class="fa-solid fa-star" style="color: #f59e0b;"></i>
+                  <i class="fa-solid fa-star " style="color: #f59e0b;"></i>
+                </div>
+                <p class="lite">550 Rating</p>
+              </div>
+            </div>
+
+            <div class="general-information">
+              <p class="lite">General Information</p>
+              <p> <span class="lite">Full Name:</span> Osama Mohamed</p>
+              <p> <span class="lite">Gender:</span> Male</p>
+              <p> <span class="lite">Country:</span> Egypt</p>
+              <div class="animation-icon">
+                <input type="checkbox" id="general-info" checked>
+                <label for="general-info">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="general-information">
+              <p class="lite">Personal Information</p>
+              <p> <span class="lite">Email:</span> o@nn.sa</p>
+              <p> <span class="lite">Phone:</span> 019123456789</p>
+              <p> <span class="lite">Date Of Birth:</span> 25/10/1982</p>
+              <div class="animation-icon">
+                <input type="checkbox" id="general-info2" >
+                <label for="general-info2">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="general-information">
+              <p class="lite">Job Information</p>
+              <p> <span class="lite">Title:</span> Full Stack Developer</p>
+              <p> <span class="lite">Programming Language:</span> Python</p>
+              <p> <span class="lite">Years Of Experience:</span> +15</p>
+              <div class="animation-icon">
+                <input type="checkbox" id="general-info3" checked>
+                <label for="general-info3">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="general-information">
+              <p class="lite">Billing Information</p>
+              <p> <span class="lite">Payment Method:</span> Paypal</p>
+              <p> <span class="lite">Email:</span> email@website.com</p>
+              <p> <span class="lite">Subscription:</span> Monthly</p>
+              <div class="animation-icon">
+                <input type="checkbox" id="general-info4" >
+                <label for="general-info4">
+                  <div class="circle-button-wrong">
+                    <i class="fa-solid fa-circle-xmark fa-xl" style="color:white;"></i>
+                    <i class="fa-solid fa-circle-check fa-xl" style="color:white;"></i>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="skill-activities">
+            <div class="my-skills border-radius">
+              <div class="welcome flex">
+                <div class="welcome-data">
+                  <h2>My Skills</h2>
+                  <p class="lite">Complete Skills List</p>
+                </div>
+              </div>
+              <div class="icons flex">
+                <span class="icon">HTML</span>
+                <span class="icon">Pugjs</span>
+                <span class="icon">HAML</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">CSS</span>
+                <span class="icon">SASS</span>
+                <span class="icon">Stylus</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">JavaScript</span>
+                <span class="icon">TypeScript</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">Vuejs</span>
+                <span class="icon">Reactjs</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">Jest</span>
+                <span class="icon">Jasmine</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">PHP</span>
+                <span class="icon">Laravel</span>
+              </div>
+              <div class="icons flex">
+                <span class="icon">Python</span>
+                <span class="icon">Django</span>
+              </div>
+            </div>
+
+
+            <div class="last-activities border-radius">
+              <div class="welcome flex">
+                <div class="welcome-data">
+                  <h2>Latest Activities</h2>
+                  <p class="lite">Latest Activities Done By The User</p>
+                </div>
+              </div>
+              <div class="last-activ-collection">
+                <div class="last-activ-icon flex">
+                  <div class="img-data-activ flex">
+                    <img src="./imgs/activity-01.png" alt="">
+                    <div class="activ-address-data flex">
+                      <p>Store</p>
+                      <p class="lite">Bought The Mastering Python Course</p>
+                    </div>
+                  </div>
+                  <div class="activ-time-data flex">
+                    <p>18:10</p>
+                    <p class="lite">Yesterday</p>
+                  </div>
+                </div>
+                <div class="last-activ-icon flex">
+                  <div class="img-data-activ flex">
+                    <img src="./imgs/activity-02.png" alt="">
+                    <div class="activ-address-data flex">
+                      <p>Academy</p>
+                      <p class="lite">Got The PHP Certificate</p>
+                    </div>
+                  </div>
+                  <div class="activ-time-data flex">
+                    <p>16:05</p>
+                    <p class="lite">Yesterday</p>
+                  </div>
+                </div>
+                <div class="last-activ-icon flex">
+                  <div class="img-data-activ flex">
+                    <img src="./imgs/activity-03.png" alt="">
+                    <div class="activ-address-data flex">
+                      <p>Badges</p>
+                      <p class="lite">Unlocked The 10 Skills Badge</p>
+                    </div>
+                  </div>
+                  <div class="activ-time-data flex">
+                    <p>18:05</p>
+                    <p class="lite">Yesterday</p>
+                  </div>
+                </div>
+                <div class="last-activ-icon flex">
+                  <div class="img-data-activ flex">
+                    <img src="./imgs/activity-01.png" alt="">
+                    <div class="activ-address-data flex">
+                      <p>Store</p>
+                      <p class="lite">Bought The Typescript Course</p>
+                    </div>
+                  </div>
+                  <div class="activ-time-data flex">
+                    <p>12:05</p>
+                    <p class="lite">Yesterday</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
 </body>
 </html>
